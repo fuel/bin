@@ -1,0 +1,11 @@
+{{#has_results}}
+{{#results}}
+	<a class="search-result" href="{{url}}">
+		<span class="name">{{name}}</span>
+		<span class="url">{{url}}</span>
+	</a>
+{{/results}}
+{{/has_results}}
+{{^has_results}}
+	<p class="no-results">No matching snippets found...</p>
+{{/has_results}}

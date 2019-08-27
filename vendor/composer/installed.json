@@ -1,0 +1,195 @@
+[
+    {
+        "name": "opauth/opauth",
+        "version": "0.4.3",
+        "version_normalized": "0.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opauth/opauth.git",
+            "reference": "0.4.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opauth/opauth/zipball/0.4.3",
+            "reference": "0.4.3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "suggest": {
+            "opauth/facebook": "Allows Facebook authentication",
+            "opauth/google": "Allows Google authentication",
+            "opauth/twitter": "Allows Twitter authentication"
+        },
+        "time": "2013-01-10 07:10:44",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/Opauth/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "U-Zyn Chua",
+                "email": "chua@uzyn.com",
+                "homepage": "http://uzyn.com"
+            }
+        ],
+        "description": "Multi-provider authentication framework for PHP",
+        "homepage": "http://opauth.org",
+        "keywords": [
+            "Authentication",
+            "OpenId",
+            "auth",
+            "facebook",
+            "google",
+            "oauth",
+            "omniauth",
+            "twitter"
+        ]
+    },
+    {
+        "name": "opauth/github",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opauth/github.git",
+            "reference": "0.1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opauth/github/zipball/0.1.0",
+            "reference": "0.1.0",
+            "shasum": ""
+        },
+        "require": {
+            "opauth/opauth": ">=0.4.0",
+            "php": ">=5.2.0"
+        },
+        "time": "2012-07-23 06:13:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "U-Zyn Chua",
+                "email": "chua@uzyn.com",
+                "homepage": "http://uzyn.com"
+            }
+        ],
+        "description": "GitHub authentication strategy for Opauth",
+        "homepage": "http://opauth.org",
+        "keywords": [
+            "Authentication",
+            "auth",
+            "github"
+        ]
+    },
+    {
+        "name": "opauth/facebook",
+        "version": "0.2.1",
+        "version_normalized": "0.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opauth/facebook.git",
+            "reference": "0.2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opauth/facebook/zipball/0.2.1",
+            "reference": "0.2.1",
+            "shasum": ""
+        },
+        "require": {
+            "opauth/opauth": ">=0.2.0",
+            "php": ">=5.2.0"
+        },
+        "time": "2012-09-21 04:47:35",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "U-Zyn Chua",
+                "email": "chua@uzyn.com",
+                "homepage": "http://uzyn.com"
+            }
+        ],
+        "description": "Facebook strategy for Opauth",
+        "homepage": "http://opauth.org",
+        "keywords": [
+            "Authentication",
+            "auth",
+            "facebook"
+        ]
+    },
+    {
+        "name": "opauth/twitter",
+        "version": "0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opauth/twitter.git",
+            "reference": "0.3.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opauth/twitter/zipball/0.3.0",
+            "reference": "0.3.0",
+            "shasum": ""
+        },
+        "require": {
+            "opauth/opauth": ">=0.2.0",
+            "php": ">=5.2.0"
+        },
+        "time": "2012-10-28 04:47:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "U-Zyn Chua",
+                "email": "chua@uzyn.com",
+                "homepage": "http://uzyn.com"
+            }
+        ],
+        "description": "Twitter strategy for Opauth",
+        "homepage": "http://opauth.org",
+        "keywords": [
+            "Authentication",
+            "auth",
+            "twitter"
+        ]
+    }
+]

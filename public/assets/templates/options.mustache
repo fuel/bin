@@ -1,0 +1,18 @@
+<li class="header">{{title}} {{#show_delete}}<i class="icon-trash option-clear"></i>{{/show_delete}}</li>
+{{#has_options}}
+<li class="devider"></li>
+<li>
+	<ul>
+		{{#options}}
+		<li><a class="option" data-index="{{index}}" href="#">{{value}}</a></li>
+		{{/options}}
+	</ul>
+</li>
+{{/has_options}}
+{{#show_input}}
+<li class="devider bottom-close"></li>
+<li>
+	<i class="icon-pencil"></i>
+	<input type="text" placeholder="{{placeholder}}" />
+</li>
+{{/show_input}}
